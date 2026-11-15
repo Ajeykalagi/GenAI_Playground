@@ -2,7 +2,7 @@
 
 A hands-on repository for learning Generative AI, Large Language Models, LangChain, RAG, and AI application development.
 
-This project is designed for anyone who wants to learn by building — whether you are a beginner exploring AI, a developer adding GenAI skills, or a builder prototyping real-world AI experiences.
+This project is designed for anyone who wants to learn by building - whether you are a beginner exploring AI, a developer adding GenAI skills, or a builder prototyping real-world AI experiences.
 
 ## Why this repository?
 
