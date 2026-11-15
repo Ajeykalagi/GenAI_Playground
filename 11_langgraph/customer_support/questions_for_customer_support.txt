@@ -1,0 +1,85 @@
+Music-Related Questions
+"Can you help me find songs by Amy Winehouse?"
+"What albums do you have by The Beatles?"
+"Do you have any information on the song 'Hey Jude'?"
+"Who are the top artists in your database?"
+"Can you list some songs by Michael Jackson?"
+"Which albums are available by Adele?"
+"Find me tracks by Taylor Swift."
+"What music do you have by Ed Sheeran?"
+Customer Account-Related Questions
+"What is the email associated with my account?"
+"Can you update my profile information?"
+"How can I change my account password?"
+"What is my current subscription plan?"
+"How can I view my purchase history?"
+"Can you tell me my account balance?"
+"How do I update my payment information?"
+"What are the recent transactions on my account?"
+Generic Questions to Test Routing
+"I need help with my account."
+"I want to find some music."
+"Can you tell me about my recent orders?"
+"I'm looking for information on a specific artist."
+"How do I access my account details?"
+"Can you recommend some good songs?"
+"I have a question about my profile."
+"What albums do you recommend?"
+
+
+
+
+
+
+
+
+
+Music-Related Interactions
+User: "Can you help me find songs by Adele?"
+
+Bot: "I can help you find songs and albums by specific artists, or check if a particular song exists. Just let me know the name of the artist or song you're interested in!"
+User: "What albums do you have by Adele?"
+Bot: [Response listing albums by Adele]
+User: "Do you have any information on the song 'Rolling in the Deep'?"
+
+Bot: [Response with information about the song, or related songs/artists if not found]
+User: "Who are the top artists in your database?"
+
+Bot: [Response listing top artists]
+User: "Find me tracks by The Beatles."
+
+Bot: [Response listing tracks by The Beatles]
+Customer Account-Related Interactions
+User: "What is the email associated with my account?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+User: "My customer ID is 123."
+Bot: [Response with email associated with the account]
+User: "Can you update my profile information?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+User: "What is my current subscription plan?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+User: "How can I view my purchase history?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+Generic Questions to Test Routing
+User: "I need help with my account."
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+User: "I want to find some music."
+
+Bot: "I can help you find songs and albums by specific artists, or check if a particular song exists. Just let me know the name of the artist or song you're interested in!"
+User: "Can you tell me about my recent orders?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+User: "I'm looking for information on a specific artist."
+
+Bot: "I can help you find songs and albums by specific artists, or check if a particular song exists. Just let me know the name of the artist or song you're interested in!"
+User: "How do I access my account details?"
+
+Bot: "I can help with that. Could you please provide me with your customer ID?"
+
+
+

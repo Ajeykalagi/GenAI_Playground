@@ -1,0 +1,1 @@
+We are seeking a Senior Software Engineer with experience in backend development using Python and Django. The candidate should be proficient in containerization technologies like Docker and Kubernetes. Experience with cloud platforms like AWS is preferred. Strong problem-solving skills and teamwork are essential.

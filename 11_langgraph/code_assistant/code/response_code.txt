@@ -1,0 +1,17 @@
+Prefix:
+Create a basic LangChain chain that takes a user input and returns a formatted response.
+
+Imports:
+from langchain.llms import OpenAI
+from langchain.prompts import PromptTemplate
+
+Code:
+# Initialize the LLM with OpenAI
+llm = OpenAI(api_key='your_openai_api_key')
+
+# Define a prompt template to format the user input
+prompt_template = PromptTemplate(template="Please summarize the following text: {text}")
+
+# Invoke the LLM with the formatted prompt
+response = llm.invoke(prompt_template.format({'text': 'LangChain is a framework for building LLM applications.'}))
+print(response)

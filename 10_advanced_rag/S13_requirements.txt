@@ -1,0 +1,12 @@
+# youtube-transcript-api
+# pytube
+# lark
+# pymilvus
+# "pymilvus[model]"
+# torch
+# langchain_anthropic
+langchain_community
+langchain_core
+langchain
+langchain_openai
+chromadb

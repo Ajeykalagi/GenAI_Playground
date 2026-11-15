@@ -1,0 +1,625 @@
+2024-09-13 14:08:41,826 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:08:41,827 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:08:42,049 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:08:42,049 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:08:47,241 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:08:47,241 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:08:47,538 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:08:47,555 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:08:47,838 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:08:48,020 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:09:03,508 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:09:03,511 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:09:03,606 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:09:03,608 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:09:03,979 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:09:03,980 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:09:04,078 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:09:04,079 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:09:04,469 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:09:04,756 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:10:39,936 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:10:39,936 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:10:40,212 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:10:40,227 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:10:40,546 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:10:40,730 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:10:40,730 - __main__ - INFO - Prompting user for job description.
+2024-09-13 14:10:43,316 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:10:43,316 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:10:43,632 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:10:43,632 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:10:43,950 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:10:44,150 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:10:44,150 - __main__ - INFO - Prompting user for job description.
+2024-09-13 14:10:44,150 - __main__ - INFO - Extracting key skills and qualifications from the job description.
+2024-09-13 14:10:44,249 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-13 14:10:44,310 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216CA347D40>
+2024-09-13 14:10:44,311 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000216C8EDD950> server_hostname='api.openai.com' timeout=None
+2024-09-13 14:10:44,335 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216C8F33B90>
+2024-09-13 14:10:44,335 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 14:10:44,335 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 14:10:44,335 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 14:10:44,335 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 14:10:44,335 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 14:10:54,968 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 08:40:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'10149'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9719'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.686s'), (b'x-request-id', b'req_303121002bf108856a06d4e0594647ad'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=ogXDO46o_iiKLdKDLBsXhw0VzrJAWX_ShOkZ6nOLRl8-1726216854-1.0.1.1-B3uOa7_T.rM85OgbZkUBguJLQugZCvch53qd9OHdA6Wk6v2xopKJnZb7RtC6noV4ZhNZ7wwgOV3SpIIgMXZL2w; path=/; expires=Fri, 13-Sep-24 09:10:54 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=F6uypLUAsfjyv8WVG_2ELaVU94mxkZra6O5VFfYATV4-1726216854957-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c26d58d4d407f7c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 14:10:54,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 14:10:54,974 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 14:10:54,975 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 14:10:54,976 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 14:10:54,976 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 14:10:54,994 - __main__ - INFO - Identifying gaps between the resume and the job description.
+2024-09-13 14:10:55,022 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 14:10:55,023 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 14:10:55,023 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 14:10:55,024 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 14:10:55,024 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 14:11:15,124 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 08:41:15 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'19738'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7292'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'16.246s'), (b'x-request-id', b'req_64d4e61b31086b91d7d5923a00982590'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c26d5d00ede7f7c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 14:11:15,126 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 14:11:15,127 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 14:11:15,128 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 14:11:15,129 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 14:11:15,129 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 14:11:15,134 - __main__ - INFO - Reformatting job responsibilities in the resume.
+2024-09-13 14:11:15,150 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 14:11:15,151 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 14:11:15,151 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 14:11:15,151 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 14:11:15,152 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 14:11:33,554 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 08:41:33 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'18039'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'8806'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'7.162s'), (b'x-request-id', b'req_3188902f433026931e76fa3337ba6372'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c26d64dce007f7c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 14:11:33,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 14:11:33,557 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 14:11:33,559 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 14:11:33,559 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 14:11:33,560 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 14:14:33,828 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:14:33,830 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:14:34,144 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:14:34,146 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:14:34,510 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:14:34,767 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:14:34,767 - __main__ - INFO - Prompting user for job description.
+2024-09-13 14:14:34,851 - httpcore.connection - DEBUG - close.started
+2024-09-13 14:14:34,852 - httpcore.connection - DEBUG - close.complete
+2024-09-13 14:14:40,229 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:14:40,229 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:14:40,411 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 14:14:40,411 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 14:14:40,594 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 14:14:40,692 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 14:14:40,693 - __main__ - INFO - Prompting user for job description.
+2024-09-13 14:14:40,694 - __main__ - INFO - Extracting key skills and qualifications from the job description.
+2024-09-13 14:14:40,701 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-13 14:14:41,741 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216C8C3F0E0>
+2024-09-13 14:14:41,741 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000216CA1FE5D0> server_hostname='api.openai.com' timeout=None
+2024-09-13 14:14:41,775 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216CA4AD6D0>
+2024-09-13 14:14:41,775 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 14:14:41,775 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 14:14:41,775 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 14:14:41,775 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 14:14:41,775 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 14:14:51,873 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 08:44:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'9727'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9719'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.686s'), (b'x-request-id', b'req_1937001d37a0672984eba65a03b2a80c'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=t4Wz2bIivWZS9d99MMxiiVtx_dA7bMGGlfigK.EQzeY-1726217091-1.0.1.1-P0wfUSVA.tep844H5KAhO.8sqkAXayKUzIBH2vyI3A4WQzRc0PgfdXg0hgj56UeD1nLPLEn2OD1rL5IWNK2RVQ; path=/; expires=Fri, 13-Sep-24 09:14:51 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=MuBc.My1kLPhJE62eAoKLF0mtSYzcUv_eEwTKWflV6Y-1726217091862-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c26db593fd49bf1-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 14:14:51,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 14:14:51,877 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 14:14:51,878 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 14:14:51,879 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 14:14:51,879 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 15:03:34,154 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:03:34,154 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:03:34,538 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:03:34,539 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:03:34,920 - httpcore.connection - DEBUG - close.started
+2024-09-13 15:03:34,921 - httpcore.connection - DEBUG - close.complete
+2024-09-13 15:08:41,588 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:41,589 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:41,920 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:41,921 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:49,720 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:49,721 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:50,066 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:50,066 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:54,543 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:54,543 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:54,858 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:08:54,858 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:08:55,141 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 15:08:55,323 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 15:08:55,323 - __main__ - INFO - Prompting user for job description.
+2024-09-13 15:10:05,601 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:10:05,602 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:10:05,694 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:10:05,695 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:10:05,871 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:10:05,872 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:10:05,983 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:10:05,984 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 15:10:06,216 - __main__ - INFO - Saving and loading uploaded PDF file.
+2024-09-13 15:10:06,310 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-13 15:10:06,311 - __main__ - INFO - Prompting user for job description.
+2024-09-13 15:10:06,312 - __main__ - INFO - Extracting key skills and qualifications from the job description.
+2024-09-13 15:10:06,319 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-13 15:10:06,361 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216CA4AE600>
+2024-09-13 15:10:06,361 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000216CA357AD0> server_hostname='api.openai.com' timeout=None
+2024-09-13 15:10:06,387 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000216CA4AE6F0>
+2024-09-13 15:10:06,387 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:06,388 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 15:10:06,388 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 15:10:06,389 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 15:10:06,389 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:18,187 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 09:40:18 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'11437'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9719'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.686s'), (b'x-request-id', b'req_2a3bc5661d6eef2db8676baf1b601dd9'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=JLFIg1reBD1TlBbYhrJAkmiCrFc..Fi9NWkM2dvLMro-1726220418-1.0.1.1-0idhOq..vdGtlM_x_22RlkhjEANLnmtkC78PR3A1UyigkeU6I9HtOIu4k7crO09fyNtRHnP10r.Zr5ZNrEQPmQ; path=/; expires=Fri, 13-Sep-24 10:10:18 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=f6.UWiemevAYyAwgWEfHmDRSKhal9BsGeHyQMdBQawU-1726220418182-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c272c84097a7f5c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 15:10:18,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 15:10:18,191 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 15:10:18,192 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 15:10:18,193 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 15:10:18,193 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 15:10:18,197 - __main__ - INFO - Identifying gaps between the resume and the job description.
+2024-09-13 15:10:18,207 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:18,208 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 15:10:18,208 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 15:10:18,208 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 15:10:18,209 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:28,682 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 09:40:28 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'10075'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7438'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'15.37s'), (b'x-request-id', b'req_d54f162e5caf5b88c2d307995fdcad39'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c272ccdea8e7f5c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 15:10:28,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 15:10:28,686 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 15:10:28,687 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 15:10:28,688 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 15:10:28,688 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 15:10:28,691 - __main__ - INFO - Reformatting job responsibilities in the resume.
+2024-09-13 15:10:28,700 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:28,701 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 15:10:28,702 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 15:10:28,703 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 15:10:28,703 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 15:10:49,636 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 09:40:49 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'19146'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'8137'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'11.176s'), (b'x-request-id', b'req_6d2b6c2c4a76d464a14b1f584f7e9033'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c272d0f7ab27f5c-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 15:10:49,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 15:10:49,638 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 15:10:49,639 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 15:10:49,639 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 15:10:49,640 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 15:13:13,853 - httpcore.connection - DEBUG - close.started
+2024-09-13 15:13:13,854 - httpcore.connection - DEBUG - close.complete
+2024-09-18 21:55:42,504 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-18 21:55:42,504 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-18 21:55:42,761 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-18 21:55:42,766 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-18 21:55:42,968 - __main__ - INFO - Running the resume analysis program.
+2024-09-18 21:55:42,968 - __main__ - INFO - Starting the resume processing workflow.
+2024-09-18 21:55:42,968 - __main__ - INFO - Loading resume from PDF file: input/path_to_resume.pdf
+2024-09-18 21:56:30,681 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-18 21:56:30,682 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-18 21:56:31,007 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-18 21:56:31,008 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-18 21:56:31,270 - __main__ - INFO - Running the resume analysis program.
+2024-09-18 21:56:31,270 - __main__ - INFO - Starting the resume processing workflow.
+2024-09-18 21:56:31,270 - __main__ - INFO - Loading resume from PDF file: input/Aditya Resume India V1.pdf
+2024-09-18 21:56:31,550 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-18 21:56:31,550 - __main__ - INFO - Prompting user for job description.
+2024-09-18 21:56:49,688 - __main__ - INFO - Extracting key skills and qualifications from the job description.
+2024-09-18 21:56:49,817 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-18 21:56:49,875 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020969D2F2F0>
+2024-09-18 21:56:49,875 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000209697CE0D0> server_hostname='api.openai.com' timeout=None
+2024-09-18 21:56:49,914 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000209697E4C20>
+2024-09-18 21:56:49,914 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-18 21:56:49,914 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-18 21:56:49,914 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-18 21:56:49,914 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-18 21:56:49,918 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-18 21:56:58,770 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Sep 2024 16:26:58 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'8304'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9877'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'738ms'), (b'x-request-id', b'req_edd3814e8d168435f2b39a2f86f670a0'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=W0HSMXU_8QAhLJbsSFXho_gnSmIlXVqC.AqVzetZ.Vg-1726676818-1.0.1.1-Aka_ewcRofDDPQCL7MN2.wfXcFOyij._hIGQ0RSuYFU3doPTRSFWwWyvsP.iJQaEgU7kN4MpXzkJ50fOQvkDwA; path=/; expires=Wed, 18-Sep-24 16:56:58 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Sb92PRqk8iZfOONhcCwH1qy_tajF5CR4ny3M04TR49A-1726676818523-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c52b32dccdf7f4a-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-18 21:56:58,773 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 21:56:58,775 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-18 21:56:58,775 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-18 21:56:58,776 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-18 21:56:58,776 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-18 21:56:58,802 - __main__ - INFO - Key skills and qualifications extracted successfully.
+2024-09-18 21:56:58,807 - __main__ - INFO - Extracted job keywords: Key Skills:
+1. Backend development using Python and Django
+2. Proficiency in containerization technologies like Docker and Kubernetes
+3. Experience with cloud platforms like AWS
+4. Strong problem-solving skills
+5. Teamwork skills
+
+Responsibilities:
+1. Backend development using Python and Django
+2. Utilization of containerization technologies like Docker and Kubernetes
+3. Working with cloud platforms like AWS
+4. Solving complex problems
+5. Working effectively in a team
+
+Qualifications:
+1. Experience in backend development using Python and Django
+2. Proficiency in containerization technologies like Docker and Kubernetes
+3. Experience with cloud platforms like AWS
+4. Strong problem-solving skills
+5. Teamwork skills
+2024-09-18 21:56:58,810 - __main__ - INFO - Identifying gaps between the resume and the job description.
+2024-09-18 21:56:58,835 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-18 21:56:58,835 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-18 21:56:58,837 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-18 21:56:58,837 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-18 21:56:58,839 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-18 21:57:11,569 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Sep 2024 16:27:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'12164'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7685'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.89s'), (b'x-request-id', b'req_ecdfdc6065071cd9b3dc115a8f190b4b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c52b3658cb97f4a-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-18 21:57:11,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 21:57:11,569 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-18 21:57:11,569 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-18 21:57:11,569 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-18 21:57:11,569 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-18 21:57:11,576 - __main__ - INFO - Resume gaps identified successfully.
+2024-09-18 21:57:11,583 - __main__ - INFO - Identified gaps: Gaps in the resume:
+
+1. The resume does not mention any experience with backend development using Python and Django, which is a key skill and responsibility for the job.
+
+2. There is no mention of proficiency in containerization technologies like Docker and Kubernetes in the resume. These technologies are key skills and responsibilities for the job.
+
+3. While the resume mentions experience with AWS, it's unclear if the candidate has the specific experiences required by the job, such as AWS Sagemaker.
+
+4. The resume does not specifically mention that the candidate has strong problem-solving skills.
+
+5. The resume does not specifically mention teamwork skills.
+
+Areas of Improvement:
+
+1. The candidate should highlight any experience using Python and Django for backend development, if they have it.
+
+2. The candidate should mention any experience they have with Docker and Kubernetes.
+
+3. The candidate should be more specific about their experience with AWS. If they have experience with AWS Sagemaker, they should mention it.
+
+4. The candidate should highlight their problem-solving skills. They could do this by providing examples of complex problems they have solved in the past.
+
+5. The candidate should demonstrate their teamwork skills, perhaps by discussing projects where they have had to work closely with others.
+2024-09-18 21:57:11,588 - __main__ - INFO - Reformatting job responsibilities in the resume.
+2024-09-18 21:57:11,600 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-18 21:57:11,600 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-18 21:57:11,600 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-18 21:57:11,613 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-18 21:57:11,613 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-18 21:57:26,487 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 18 Sep 2024 16:27:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'14514'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'8755'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'7.465s'), (b'x-request-id', b'req_489f9a6a3a851fcb5486fe5aae19f03f'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c52b3b56fc17f4a-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-18 21:57:26,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 21:57:26,490 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-18 21:57:26,490 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-18 21:57:26,490 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-18 21:57:26,490 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-18 21:57:26,490 - __main__ - INFO - Resume responsibilities reformatted successfully.
+2024-09-18 21:57:26,499 - __main__ - INFO - Resume responsibilities reformatted.
+2024-09-18 21:57:26,499 - __main__ - INFO - Program finished successfully.
+2024-09-18 21:57:26,633 - httpcore.connection - DEBUG - close.started
+2024-09-18 21:57:26,638 - httpcore.connection - DEBUG - close.complete
+2024-09-23 23:01:10,630 - __main__ - INFO - Initializing OpenAI model with model name: gpt-4o-mini and temperature: 0.7
+2024-09-23 23:01:10,630 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:01:10,647 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:01:10,894 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:01:10,894 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:01:11,186 - __main__ - INFO - Processing resume from file.
+2024-09-23 23:01:11,186 - __main__ - INFO - Loading resume from file: input/Aditya Resume India V1.pdf
+2024-09-23 23:01:11,489 - __main__ - INFO - Resume text loaded successfully.
+2024-09-23 23:01:11,489 - __main__ - INFO - Requesting job description input from user.
+2024-09-23 23:01:17,968 - __main__ - INFO - Job description received.
+2024-09-23 23:01:17,970 - __main__ - INFO - Extracting job keywords from the description.
+2024-09-23 23:01:18,073 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 23:01:18,119 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001CECB96E3F0>
+2024-09-23 23:01:18,125 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001CECB5F1C50> server_hostname='api.openai.com' timeout=None
+2024-09-23 23:01:18,152 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001CECBB77FB0>
+2024-09-23 23:01:18,159 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:18,159 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:01:18,159 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:01:18,161 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:01:18,161 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:27,984 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:31:27 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'9423'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9806'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.164s'), (b'x-request-id', b'req_f6b9a57d2c8f4d8cba3d4ce6685b7c8b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=henYdiX.Smib2T5sEhGU9kisBNmvUOpaSgjrF_untm8-1727112687-1.0.1.1-SkSZ3U5eWW5ECONCpsIwM4j.RXzUMr67hANZTfHgSEUdw1h.oR7fkJIISnxePRQhfpQaHwHbNhNyg8CGDJoqKg; path=/; expires=Mon, 23-Sep-24 18:01:27 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=nf.rfr8L_lJp_PGGC8Ld_7LhKlAvyoHFTX_cqr3dMgw-1727112687590-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c447c6fe49148-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:01:27,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:01:27,984 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:01:27,984 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:01:27,984 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:01:27,984 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:01:28,002 - __main__ - INFO - Job keywords extracted successfully.
+2024-09-23 23:01:28,002 - __main__ - INFO - Job keywords extraction complete.
+2024-09-23 23:01:28,002 - __main__ - INFO - Identifying gaps in the resume.
+2024-09-23 23:01:28,018 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:28,027 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:01:28,027 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:01:28,027 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:01:28,027 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:33,096 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:31:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'4674'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7727'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.638s'), (b'x-request-id', b'req_dfdbd81abf9901f3fecee0bdf9f23b1f'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c44ba18fb9148-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:01:33,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:01:33,096 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:01:33,096 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:01:33,096 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:01:33,096 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:01:33,096 - __main__ - INFO - Resume gaps identified successfully.
+2024-09-23 23:01:33,111 - __main__ - INFO - Gap identification complete.
+2024-09-23 23:01:33,111 - __main__ - INFO - Reformatting resume responsibilities.
+2024-09-23 23:01:33,127 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:33,127 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:01:33,127 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:01:33,127 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:01:33,127 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:01:36,033 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:31:35 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'2567'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'8579'), (b'x-ratelimit-reset-requests', b'12.219s'), (b'x-ratelimit-reset-tokens', b'8.523s'), (b'x-request-id', b'req_ec4b86ba5cc95c0af9da00e7ed8325ba'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c44da0ae69148-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:01:36,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:01:36,033 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:01:36,033 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:01:36,033 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:01:36,033 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:01:36,038 - __main__ - INFO - Responsibilities reformatted successfully.
+2024-09-23 23:01:36,176 - httpcore.connection - DEBUG - close.started
+2024-09-23 23:01:36,176 - httpcore.connection - DEBUG - close.complete
+2024-09-23 23:09:16,653 - __main__ - INFO - Initializing OpenAI model with model: gpt-4o-mini and temperature: 0.7
+2024-09-23 23:09:16,668 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:09:16,668 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:09:16,904 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:09:16,912 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:09:17,146 - __main__ - INFO - Processing resume from file.
+2024-09-23 23:09:17,146 - __main__ - INFO - Loading resume from file: input/Aditya Resume India V1.pdf
+2024-09-23 23:09:17,501 - __main__ - INFO - Resume text loaded successfully.
+2024-09-23 23:09:17,501 - __main__ - INFO - Requesting job description input from user.
+2024-09-23 23:09:23,221 - __main__ - INFO - Job description received.
+2024-09-23 23:09:23,221 - __main__ - INFO - Extracting job keywords from the description.
+2024-09-23 23:09:23,343 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 23:09:24,413 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E5FFB3E5D0>
+2024-09-23 23:09:24,420 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E5FF8BC550> server_hostname='api.openai.com' timeout=None
+2024-09-23 23:09:24,449 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E5FFC08320>
+2024-09-23 23:09:24,455 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:24,458 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:09:24,459 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:09:24,459 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:09:24,459 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:34,694 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:39:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'9828'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9806'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.164s'), (b'x-request-id', b'req_fa92b4a8d96ff5b7bc60e20ce9126d90'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=7V8hREep76BW2l2lT.O4m8NbyQ5eJyQPR10g5.ynGYo-1727113174-1.0.1.1-6kCZebaU_lQ20wiTy2QULmcBmjBGGW80ZNxcMp4D0eSju5JvhDIG5UAvkypRHqdfMswm9vZdCSqjW1MWGM8xfQ; path=/; expires=Mon, 23-Sep-24 18:09:34 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Y7MRAUux9fJuU5N1cKFc0Dw658chW0SijVfzWK1B.rs-1727113174271-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c505bce35a90e-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:09:34,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:09:34,694 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:09:34,694 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:09:34,694 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:09:34,694 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:09:34,723 - __main__ - INFO - Job keywords extracted successfully.
+2024-09-23 23:09:34,734 - __main__ - INFO - Job keywords extraction complete.
+2024-09-23 23:09:34,734 - __main__ - INFO - Identifying gaps in the resume.
+2024-09-23 23:09:34,763 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:34,763 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:09:34,763 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:09:34,767 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:09:34,767 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:44,724 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:39:44 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'9337'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7734'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.596s'), (b'x-request-id', b'req_bf949fede555b3055a1e284fa06c0c47'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c509c3b05a90e-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:09:44,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:09:44,724 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:09:44,724 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:09:44,724 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:09:44,724 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:09:44,724 - __main__ - INFO - Resume gaps identified successfully.
+2024-09-23 23:09:44,724 - __main__ - INFO - Gap identification complete.
+2024-09-23 23:09:44,724 - __main__ - INFO - Reformatting resume responsibilities.
+2024-09-23 23:09:44,745 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:44,745 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:09:44,745 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:09:44,745 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:09:44,745 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:09:48,619 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:39:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'3435'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9353'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'3.876s'), (b'x-request-id', b'req_787bcaf44e76491ac83640bd9cb977ca'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c50da9ac6a90e-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:09:48,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:09:48,619 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:09:48,619 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:09:48,619 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:09:48,619 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:09:48,628 - __main__ - INFO - Responsibilities reformatted successfully.
+2024-09-23 23:09:48,779 - httpcore.connection - DEBUG - close.started
+2024-09-23 23:09:48,782 - httpcore.connection - DEBUG - close.complete
+2024-09-23 23:21:08,000 - __main__ - INFO - Processing resume: input/Aditya Resume India V1.pdf
+2024-09-23 23:21:08,000 - __main__ - INFO - Loading resume from PDF: input/Aditya Resume India V1.pdf
+2024-09-23 23:21:08,326 - __main__ - DEBUG - Resume loaded with 3668 characters
+2024-09-23 23:21:13,631 - __main__ - INFO - Job description received from input
+2024-09-23 23:21:13,631 - __main__ - INFO - Extracting job keywords
+2024-09-23 23:21:13,646 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:21:13,646 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:21:13,985 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:21:13,993 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:22:42,619 - __main__ - INFO - Processing resume: input/Aditya Resume India V1.pdf
+2024-09-23 23:22:42,623 - __main__ - INFO - Loading resume from PDF: input/Aditya Resume India V1.pdf
+2024-09-23 23:22:42,929 - __main__ - DEBUG - Resume loaded with 3668 characters
+2024-09-23 23:22:49,527 - __main__ - INFO - Job description received from input
+2024-09-23 23:22:49,527 - __main__ - INFO - Extracting job keywords
+2024-09-23 23:22:49,541 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:22:49,545 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:22:49,844 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:22:49,844 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:26:47,427 - __main__ - INFO - Initializing OpenAI model with model name: gpt-4o-mini and temperature: 0.7
+2024-09-23 23:26:47,439 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:26:47,439 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:26:47,772 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:26:47,785 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:26:51,291 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 23:26:52,350 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F0CEB30770>
+2024-09-23 23:26:52,357 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F0CE8A9650> server_hostname='api.openai.com' timeout=None
+2024-09-23 23:26:52,393 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F0CEE07FB0>
+2024-09-23 23:26:52,395 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:26:52,395 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:26:52,395 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:26:52,395 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:26:52,395 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:27:02,472 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:57:02 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'9723'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9806'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.164s'), (b'x-request-id', b'req_1e3fe373ea19249753569247824bf817'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=hlYXzzfnlGOm41hHO0EX3EnJZ0BpIBOwMx6Jtd41.MU-1727114222-1.0.1.1-CX5ZPXyw46tdFhY7zsHW3D9HPYgf.Oe9OhChCpgcXnRDwS.O.ec4AlB2y0.OpUhb6gZ22d8OxElgBfiTr4BdNw; path=/; expires=Mon, 23-Sep-24 18:27:02 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=TaZ1i1VsnWxYif7Hl.eK_yg.IeMnFsj5y0QwbBvUQcE-1727114222114-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c69f16d1c7f12-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:27:02,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:27:02,475 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:27:02,475 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:27:02,475 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:27:02,475 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:27:02,523 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:27:02,523 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:27:02,523 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:27:02,536 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:27:02,536 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:27:16,371 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:57:15 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'11516'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7697'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.815s'), (b'x-request-id', b'req_9f0b9b54cbfdbc56a27e5a54d7b7863d'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c6a30cd047f12-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:27:16,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:27:16,382 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:27:16,386 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:27:16,386 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:27:16,386 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:27:16,404 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:27:16,404 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:27:16,404 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:27:16,407 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:27:16,407 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:27:19,450 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:57:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'2471'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9911'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'534ms'), (b'x-request-id', b'req_f62f9720a050b8f4a70ec092b1830f39'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c6a877fb77f12-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:27:19,453 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:27:19,453 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:27:19,453 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:27:19,453 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:27:19,453 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:27:19,591 - httpcore.connection - DEBUG - close.started
+2024-09-23 23:27:19,591 - httpcore.connection - DEBUG - close.complete
+2024-09-23 23:35:01,161 - __main__ - INFO - Initializing OpenAI model with model name: gpt-4o-mini and temperature: 0.7
+2024-09-23 23:35:01,180 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:35:01,180 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:35:01,415 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:35:01,415 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:35:07,170 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 23:35:07,223 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C414F3BB30>
+2024-09-23 23:35:07,223 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C4149C94D0> server_hostname='api.openai.com' timeout=None
+2024-09-23 23:35:07,256 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C414F3B860>
+2024-09-23 23:35:07,258 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:07,258 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:35:07,260 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:35:07,260 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:35:07,260 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:16,434 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:05:16 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'8705'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9795'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.23s'), (b'x-request-id', b'req_84d909bfb5389c8c32142d579927b67e'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=8BvRTMctl7u7Ks7GqyD1ZuMUmkna4E.jIOOaZVmBBcs-1727114716-1.0.1.1-Br0x8LaY7ioe.tWywR6p6pMWs_H50KEAbuc.Js9aUTfa7YEF2HxjZGRZvSYtEQDjMB3F7sPzYw.uif2ZT4BaFQ; path=/; expires=Mon, 23-Sep-24 18:35:16 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=aBB0HYYp0Ft6r9jlIox6sSQYbwAjI9uwcxk.xUjDtBA-1727114716082-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c76064ab3801c-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:35:16,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:35:16,440 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:35:16,441 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:35:16,441 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:35:16,441 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:35:16,497 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:16,500 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:35:16,500 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:35:16,500 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:35:16,500 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:25,648 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:05:25 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'8593'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7729'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.624s'), (b'x-request-id', b'req_3254f33aa85d0274be308d8579d551d9'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c76400f46801c-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:35:25,651 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:35:25,651 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:35:25,651 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:35:25,651 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:35:25,651 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:35:25,683 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:25,691 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:35:25,693 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:35:25,694 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:35:25,694 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:29,847 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:05:29 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'3592'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9223'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'4.657s'), (b'x-request-id', b'req_31411135757e8b532f1c4e5e1256c37c'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c7679884d801c-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:35:29,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:35:29,849 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:35:29,849 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:35:29,851 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:35:29,851 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:35:29,852 - __main__ - ERROR - Invalid JSON response from the model: As an AI, I need the original job responsibilities and the job description to create an accurate response. Please provide these details.
+2024-09-23 23:35:29,852 - __main__ - INFO - Retrying (1/3) due to invalid output...
+2024-09-23 23:35:29,860 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:29,862 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:35:29,862 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:35:29,863 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:35:29,863 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:32,803 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:05:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'2571'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'9830'), (b'x-ratelimit-reset-requests', b'13.11s'), (b'x-ratelimit-reset-tokens', b'1.016s'), (b'x-request-id', b'req_f8c5a64eea1fa278245a552b670e6245'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c76938c03801c-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:35:32,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:35:32,819 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:35:32,819 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:35:32,819 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:35:32,819 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:35:32,819 - __main__ - ERROR - Invalid JSON response from the model: As an AI model, I need to know the exact job responsibilities in the resume and the job description to which they should be matched in order to provide an accurate response. Could you please provide this information?
+2024-09-23 23:35:32,819 - __main__ - INFO - Retrying (2/3) due to invalid output...
+2024-09-23 23:35:32,843 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:32,843 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:35:32,843 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:35:32,843 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:35:32,851 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:35:35,002 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:05:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'1810'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9997'), (b'x-ratelimit-remaining-tokens', b'9911'), (b'x-ratelimit-reset-requests', b'18.764s'), (b'x-ratelimit-reset-tokens', b'534ms'), (b'x-request-id', b'req_087ed742149ac247dadd10ef8f2e5d4f'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c76a639e7801c-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:35:35,002 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:35:35,002 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:35:35,002 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:35:35,002 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:35:35,002 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:35:35,002 - __main__ - ERROR - Invalid JSON response from the model: As an AI model, I need specific details (like the original job responsibilities and the job description) to provide a meaningful response. Could you please provide them?
+2024-09-23 23:35:35,002 - __main__ - INFO - Retrying (3/3) due to invalid output...
+2024-09-23 23:35:35,174 - httpcore.connection - DEBUG - close.started
+2024-09-23 23:35:35,174 - httpcore.connection - DEBUG - close.complete
+2024-09-23 23:36:23,965 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:36:23,967 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:36:24,317 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 23:36:24,321 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 23:36:24,663 - __main__ - INFO - Running the resume analysis program.
+2024-09-23 23:36:24,663 - __main__ - INFO - Starting the resume processing workflow.
+2024-09-23 23:36:24,663 - __main__ - INFO - Loading resume from PDF file: input/Aditya Resume India V1.pdf
+2024-09-23 23:36:25,011 - __main__ - INFO - Resume text successfully extracted from PDF.
+2024-09-23 23:36:25,011 - __main__ - INFO - Prompting user for job description.
+2024-09-23 23:36:26,076 - __main__ - INFO - Extracting key skills and qualifications from the job description.
+2024-09-23 23:36:26,143 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 23:36:26,184 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024FCD2DBEF0>
+2024-09-23 23:36:26,184 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000024FCCD88650> server_hostname='api.openai.com' timeout=None
+2024-09-23 23:36:26,217 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024FCCCD4620>
+2024-09-23 23:36:26,217 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:36:26,217 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:36:26,217 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:36:26,220 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:36:26,220 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:36:35,582 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:06:35 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'8895'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9877'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'738ms'), (b'x-request-id', b'req_52daaa515177ab5e8276ce8bd9ee1417'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=luFs8nlGn_xD5wMFq25o6Xvc7sHBAQef2dQmGrtonhU-1727114795-1.0.1.1-_M4p9dp_pNizp85RYoyDhcBb000J1u6puHOexW.IKlX2GC2110GTxWInhbEVpg3aNjscGy7iYIEm2HdSHsOpeA; path=/; expires=Mon, 23-Sep-24 18:36:35 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=UYtQgkgIV1ZBPBVaPHkpDGXP0Co0xvXWRj5Ml9NHkEU-1727114795227-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c77f3cdc77f45-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:36:35,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:36:35,584 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:36:35,584 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:36:35,584 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:36:35,584 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:36:35,604 - __main__ - INFO - Key skills and qualifications extracted successfully.
+2024-09-23 23:36:35,614 - __main__ - INFO - Extracted job keywords: Key Skills:
+1. Backend development using Python and Django
+2. Proficiency in containerization technologies like Docker and Kubernetes
+3. Experience with cloud platforms like AWS
+4. Strong problem-solving skills
+5. Teamwork
+
+Responsibilities: 
+The job description does not provide specific responsibilities for the role of Senior Software Engineer.
+
+Qualifications:
+1. Experience in backend development using Python and Django
+2. Proficiency in Docker and Kubernetes
+3. Experience with cloud platforms, preferably AWS
+4. Strong problem-solving skills
+5. Ability to work effectively in a team
+2024-09-23 23:36:35,614 - __main__ - INFO - Identifying gaps between the resume and the job description.
+2024-09-23 23:36:35,626 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:36:35,626 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:36:35,626 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:36:35,626 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:36:35,626 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:36:54,128 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:06:53 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'18004'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'7752'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'13.488s'), (b'x-request-id', b'req_521024e32c72f51137552d0b4c916e20'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c782e9a407f45-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:36:54,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:36:54,129 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:36:54,129 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:36:54,129 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:36:54,134 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:36:54,134 - __main__ - INFO - Resume gaps identified successfully.
+2024-09-23 23:36:54,134 - __main__ - INFO - Identified gaps: The resume of the candidate Aditya Shrivastava indicates that he is a Data Engineer with a strong background in various technologies, however, there are several gaps when compared to the job requirements for the role of a Senior Software Engineer. 
+
+1. Backend Development: The job requires backend development experience using Python and Django. While the resume mentions Python, there is no mention of Django experience. 
+
+2. Containerization Technologies: The job requires proficiency in Docker and Kubernetes. However, the resume does not mention any experience or skills related to Docker or Kubernetes. 
+
+3. Cloud Platforms: The job requires experience with AWS. Although AWS SageMaker is mentioned in the resume, it doesn't specifically mention other AWS services or overall AWS platform experience.
+
+4. Teamwork: Although the resume mentions team management and collaboration, it does not specifically mention teamwork, which is a required skill for the job. 
+
+Areas of improvement:
+
+1. Aditya should highlight his experience with Python backend development and specify if he has experience with Django. 
+
+2. He should include any experience or proficiency he has with Docker and Kubernetes.
+
+3. It would be beneficial for him to elaborate on his experience with the AWS platform beyond just AWS SageMaker.
+
+4. He should highlight his ability to work effectively in a team, as teamwork is a key requirement for the role.
+2024-09-23 23:36:54,143 - __main__ - INFO - Reformatting job responsibilities in the resume.
+2024-09-23 23:36:54,160 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 23:36:54,160 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 23:36:54,160 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 23:36:54,162 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 23:36:54,162 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 23:37:24,847 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 18:07:24 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'30345'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'8966'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'6.203s'), (b'x-request-id', b'req_222be907493eede9748ae9ac7228816e'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c78a26af37f45-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 23:37:24,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 23:37:24,847 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 23:37:24,847 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 23:37:24,847 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 23:37:24,847 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 23:37:24,847 - __main__ - INFO - Resume responsibilities reformatted successfully.
+2024-09-23 23:37:24,862 - __main__ - INFO - Resume responsibilities reformatted.
+2024-09-23 23:37:24,862 - __main__ - INFO - Program finished successfully.
+2024-09-23 23:37:24,959 - httpcore.connection - DEBUG - close.started
+2024-09-23 23:37:24,959 - httpcore.connection - DEBUG - close.complete

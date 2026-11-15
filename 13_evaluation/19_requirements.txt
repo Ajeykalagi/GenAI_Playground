@@ -1,0 +1,4 @@
+langsmith
+openai
+ollama
+bs4

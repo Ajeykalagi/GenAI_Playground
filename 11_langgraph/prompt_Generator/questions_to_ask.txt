@@ -1,0 +1,22 @@
+General Prompt Creation:
+
+"I need help creating a prompt template for generating creative writing ideas."
+"Can you help me create a prompt template for summarizing scientific articles?"
+Detailed Prompt Requirements:
+
+"I want to create a prompt to extract key information from customer reviews. What should the template include?"
+"How can I design a prompt template for generating product descriptions for an e-commerce site?"
+Specific Variables and Constraints:
+
+"I need a prompt to generate marketing emails. The variables will be customer name, product name, and discount offer. The output should not include any sensitive information."
+"Create a prompt template for a chatbot that provides tech support. Variables are user query, device type, and issue description. It should avoid suggesting hard resets."
+Objective and Requirements:
+
+"My objective is to gather user feedback on a new software feature. What should the prompt template look like?"
+"I need a prompt for creating social media posts. The output must be engaging and adhere to our brand voice."
+Combining All Aspects:
+
+"Help me create a prompt template for a recipe generator. The objective is to generate new recipes based on given ingredients. Variables are ingredient list and cuisine type. The output should not include overly complex steps and must provide clear instructions."
+Refining the Prompt:
+
+"Can you refine the prompt for creating blog post titles? The variables are topic, keyword, and target audience. The output should avoid clickbait and be SEO-friendly."

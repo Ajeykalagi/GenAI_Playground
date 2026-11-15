@@ -1,0 +1,8 @@
+langchain
+langchain_openai
+pandas
+pprintpp
+python-dotenv
+faiss-cpu
+langchain_core
+langchain_experimental

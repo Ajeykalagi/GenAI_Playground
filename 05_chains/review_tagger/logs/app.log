@@ -1,0 +1,162 @@
+2024-09-13 11:46:41,847 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 11:46:41,863 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 11:46:42,155 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 11:46:42,155 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 11:47:02,567 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 11:47:02,567 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 11:47:02,871 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 11:47:02,871 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-13 11:47:03,247 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-13 11:47:03,298 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000207553255B0>
+2024-09-13 11:47:03,298 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020755205850> server_hostname='api.openai.com' timeout=None
+2024-09-13 11:47:03,353 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000207553254C0>
+2024-09-13 11:47:03,353 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 11:47:03,353 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 11:47:03,353 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 11:47:03,353 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 11:47:03,364 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 11:47:04,832 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 06:17:04 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'737'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9903'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'582ms'), (b'x-request-id', b'req_88efd1fdec84d074fd0c78e332210cf5'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=RD2wXSdU79OXNICAF_aO3FADPNtsevWzV05LmiZvvHs-1726208224-1.0.1.1-xnV.WPUxfNrbqPyTWwcBw8lE9pRJ4TXlM2uO2XVEYK9aJO7BCNsgxSdcSd6GmHIDyHb_a6PSmrybdUKhtKSMfQ; path=/; expires=Fri, 13-Sep-24 06:47:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=6SkLsgsZ3NUQ86r4ccAHGuYTMOuai0ylPx1IwMOILXs-1726208224710-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c2603140e5b7e69-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 11:47:04,835 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 11:47:04,835 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 11:47:04,840 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 11:47:04,842 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 11:47:04,846 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 11:47:04,894 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-13 11:47:04,894 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-13 11:47:04,894 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-13 11:47:04,904 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-13 11:47:04,904 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-13 11:47:06,069 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 13 Sep 2024 06:17:06 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'749'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'9892'), (b'x-ratelimit-reset-requests', b'15.988s'), (b'x-ratelimit-reset-tokens', b'648ms'), (b'x-request-id', b'req_cd0795ec4b5f439f7cdcd4a3c0dc9f32'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c26031dbb277e69-MAA'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-13 11:47:06,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 11:47:06,074 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-13 11:47:06,074 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-13 11:47:06,074 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-13 11:47:06,077 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-13 11:47:06,234 - httpcore.connection - DEBUG - close.started
+2024-09-13 11:47:06,234 - httpcore.connection - DEBUG - close.complete
+2024-09-23 22:54:48,591 - __main__ - INFO - Initializing OpenAI model with model name: gpt-4o-mini and temperature: 0.7
+2024-09-23 22:54:48,608 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 22:54:48,608 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 22:54:48,999 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-23 22:54:48,999 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-23 22:54:49,264 - __main__ - INFO - Creating tagging chain...
+2024-09-23 22:54:49,264 - __main__ - INFO - Performing tagging for review: Horrible experience never go!!!! Employees are rude and can't sleep because the beds are so hard!!!!
+2024-09-23 22:54:49,348 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-23 22:54:50,404 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001289C60CB60>
+2024-09-23 22:54:50,404 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001289C524ED0> server_hostname='api.openai.com' timeout=None
+2024-09-23 22:54:50,435 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001289C60CAA0>
+2024-09-23 22:54:50,436 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 22:54:50,437 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 22:54:50,437 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 22:54:50,437 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 22:54:50,437 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 22:54:52,513 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:24:52 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'1441'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9872'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'768ms'), (b'x-request-id', b'req_ffca97e04bc820e752e791c5e91854e9'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=P7HwQesvUiYA3M3s5IAbbNsJpo_a3oWL_y0VhZOpvBU-1727112292-1.0.1.1-LBYLr3g4VkPlD1dF_eTN.vW2UkLKmf_zGLitCizVWYJ_44ENoykuDz7axUfiB5twAIit_xJT3SHtnGlWqclj2g; path=/; expires=Mon, 23-Sep-24 17:54:52 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=BHZTRtdH9AzYfSkopSvcAClTqDQUuoI9Qz411HdCVAY-1727112292089-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c3b052c85b297-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 22:54:52,515 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 22:54:52,515 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 22:54:52,516 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 22:54:52,516 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 22:54:52,516 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 22:54:52,518 - __main__ - INFO - Performing tagging for review: My husband and our two small kids decided it would be fun to stay at the Hilton one weekend to swim, eat, and relax. We were quite surprised...
+2024-09-23 22:54:52,533 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-23 22:54:52,533 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-23 22:54:52,533 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-23 22:54:52,540 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-23 22:54:52,540 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 22:54:54,895 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 23 Sep 2024 17:24:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'1983'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'9861'), (b'x-ratelimit-reset-requests', b'15.281s'), (b'x-ratelimit-reset-tokens', b'834ms'), (b'x-request-id', b'req_f4c969e8b9cce2158a3392621a9289ca'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c7c3b124a5cb297-MAA'), (b'Content-Encoding', b'gzip')])
+2024-09-23 22:54:54,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 22:54:54,900 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-23 22:54:54,901 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-23 22:54:54,901 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-23 22:54:54,901 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-23 22:54:55,013 - httpcore.connection - DEBUG - close.started
+2024-09-23 22:54:55,013 - httpcore.connection - DEBUG - close.complete
+2024-09-30 23:01:33,548 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:01:33,548 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:01:33,850 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:01:33,851 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:03:53,446 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:03:53,446 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:03:53,693 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:03:53,693 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:03:54,077 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-30 23:03:54,130 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000231CA200E60>
+2024-09-30 23:03:54,130 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000231CA3C4DD0> server_hostname='api.openai.com' timeout=None
+2024-09-30 23:03:54,168 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000231CA4BC410>
+2024-09-30 23:03:54,168 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:03:54,168 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:03:54,168 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:03:54,168 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:03:54,168 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:03:58,506 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:33:59 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'3863'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9826'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.044s'), (b'x-request-id', b'req_0c570e51fd7da1794a28f972008248ba'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=GB85.TUUbCfGbvBp8XkfJHvTziEODTMk5hF42kvbz0Y-1727717639-1.0.1.1-xE.IKYnKE1QSce8AwB9bzRFXBg98knfR0uVEPVN9QhffaAKZ3eDiJ_efkjn.Js8Ln3dNoIE0hKfqHkAvxbX3Qg; path=/; expires=Mon, 30-Sep-24 18:03:59 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=K8Tdg_DomBTHSPO1o185oq9QDRc4AuCDSL5votGwWV8-1727717639025-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5f5f0fdd73a14-BOM'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:03:58,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:03:58,506 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:03:58,506 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:03:58,521 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:03:58,521 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:03:58,629 - httpcore.connection - DEBUG - close.started
+2024-09-30 23:03:58,629 - httpcore.connection - DEBUG - close.complete
+2024-09-30 23:06:33,032 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:06:33,032 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:06:33,312 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-30 23:06:33,312 - httpx - DEBUG - load_verify_locations cafile='D:\\udemy\\c-env\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-09-30 23:06:33,643 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2024-09-30 23:06:33,688 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E88B3CF20>
+2024-09-30 23:06:33,688 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023E88A44FD0> server_hostname='api.openai.com' timeout=None
+2024-09-30 23:06:33,711 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E889E9E20>
+2024-09-30 23:06:33,711 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:33,711 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:06:33,711 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:06:33,711 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:06:33,718 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:38,243 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:36:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'4017'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'9826'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'1.044s'), (b'x-request-id', b'req_6e733c9b597cf03f923364ed6dd23ffe'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=FPbkSjZwNxUOHIt1JujkfkCacAWt8L.n_4GD.QuUoiY-1727717798-1.0.1.1-p8uw0P4a6ABwj8VYbtyAo.SA.PwANP932CceU2XEG0.YxsHNPhjkbYdZINgtVj.N3YYFZxfWNxp7pyfzolInmA; path=/; expires=Mon, 30-Sep-24 18:06:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=q97eE35dltlz.eudvFLDgRbBhYmMEEH42oclEZ0taIw-1727717798695-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5f9d61c99c169-BLR'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:06:38,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:06:38,243 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:06:38,243 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:06:38,243 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:06:38,243 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:06:38,275 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:38,280 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:06:38,281 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:06:38,281 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:06:38,281 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:43,789 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:36:44 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'5172'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'9824'), (b'x-ratelimit-reset-requests', b'12.722s'), (b'x-ratelimit-reset-tokens', b'1.056s'), (b'x-request-id', b'req_ace8fab213810ce8cbb39fb85a5e9f25'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5f9f29c45c169-BLR'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:06:43,789 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:06:43,789 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:06:43,789 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:06:43,789 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:06:43,795 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:06:43,811 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:43,819 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:06:43,820 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:06:43,821 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:06:43,821 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:47,995 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:36:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'3852'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'9822'), (b'x-ratelimit-reset-requests', b'15.815s'), (b'x-ratelimit-reset-tokens', b'1.063s'), (b'x-request-id', b'req_ed51e959a6ba9b4db9b6e5d90f1bb364'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5fa153975c169-BLR'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:06:47,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:06:47,995 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:06:47,995 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:06:47,995 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:06:47,995 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:06:48,021 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:48,025 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:06:48,026 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:06:48,027 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:06:48,027 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:54,222 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:36:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'5785'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9997'), (b'x-ratelimit-remaining-tokens', b'9784'), (b'x-ratelimit-reset-requests', b'20.256s'), (b'x-ratelimit-reset-tokens', b'1.291s'), (b'x-request-id', b'req_2fefb55d10abc443d2fd418f2f093b1e'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5fa2f8debc169-BLR'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:06:54,236 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:06:54,238 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:06:54,239 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:06:54,239 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:06:54,239 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:06:54,268 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:54,268 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-09-30 23:06:54,271 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-30 23:06:54,271 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-09-30 23:06:54,271 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-30 23:06:59,149 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Sep 2024 17:36:59 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-rzmcdl9fjbybiccdssashexg'), (b'openai-processing-ms', b'4498'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'10000'), (b'x-ratelimit-remaining-requests', b'9997'), (b'x-ratelimit-remaining-tokens', b'9824'), (b'x-ratelimit-reset-requests', b'22.644s'), (b'x-ratelimit-reset-tokens', b'1.053s'), (b'x-request-id', b'req_6a101785ad654b63ebda315a5a2f0e1d'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8cb5fa568dd3c169-BLR'), (b'Content-Encoding', b'gzip')])
+2024-09-30 23:06:59,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 23:06:59,152 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-30 23:06:59,152 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-09-30 23:06:59,152 - httpcore.http11 - DEBUG - response_closed.started
+2024-09-30 23:06:59,152 - httpcore.http11 - DEBUG - response_closed.complete
+2024-09-30 23:06:59,295 - httpcore.connection - DEBUG - close.started
+2024-09-30 23:06:59,298 - httpcore.connection - DEBUG - close.complete
